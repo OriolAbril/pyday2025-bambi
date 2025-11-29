@@ -1,0 +1,16 @@
+name: pyday-bambi
+channels:
+  - conda-forge
+dependencies:
+  - arviz >= 0.22
+  - arviz-base >= 0.7
+  - arviz-stats >= 0.7
+  - arviz-plots >= 0.7
+  - bambi >= 0.16
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - python >= 3.11
+  - statsmodels

@@ -2,6 +2,17 @@
 
 ## Abans de començar
 
+### Execució a través de Google Colab
+
+Podeu obrir la llibreta Jupyter a través d'aquest enllaç: https://colab.research.google.com/github/OriolAbril/pyday2025-bambi/blob/main/tutorial.ipynb
+Un cop allà, abans d'executar el codi de la llibreta executeu la següent ordre:
+
+```bash
+%pip install "bambi>=0.16" "arviz>=0.22" "arviz-base>=0.7" "arviz-stats>=0.7" "arviz-stats>=0.7" ipywidgets statsmodels
+```
+
+### Instal·lació local
+
 Abans de començar és recomanable crear un ambient virtual per a executar
 el codi del tutorial. Una de les dependències és PyMC, que en la versió
 bàsica per defecte necessita accés a compiladors de C i per tant és millor instal·lar

@@ -8,7 +8,7 @@ Podeu obrir la llibreta Jupyter a través d'aquest enllaç: https://colab.resear
 Un cop allà, abans d'executar el codi de la llibreta executeu la següent ordre:
 
 ```bash
-%pip install "bambi>=0.16" "arviz>=0.22" "arviz-base>=0.7" "arviz-stats>=0.7" "arviz-stats>=0.7" ipywidgets statsmodels
+%pip install "bambi>=0.16" "arviz>=0.22" "arviz-base>=0.7" "arviz-stats>=0.7" "arviz-plots>=0.7" ipywidgets statsmodels
 ```
 
 ### Instal·lació local
